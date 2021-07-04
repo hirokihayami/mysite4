@@ -1,0 +1,74 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.flex1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.flex1 .imege1 {
+  width: 100%;
+}
+
+.flex1 .imege1 img {
+  width: 100%;
+}
+
+.flex1 .imege1 p {
+  margin-bottom: 30px;
+}
+
+.flex2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.flex2 .left {
+  width: 100%;
+}
+
+.right {
+  width: 100%;
+  margin-left: 0;
+}
+
+.right .top {
+  text-align: center;
+}
+
+.right .top p {
+  line-height: 1.5em;
+}
+
+.container2 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container2 .flexfooder {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+}
+
+.container2 .flexfooder .box {
+  width: 100%;
+}
+
+.container2 .flexfooder .tri {
+  margin-bottom: 0 !important;
+}
+
+.twitter1 {
+  width: 100%;
+  overflow: scroll;
+}
+/*# sourceMappingURL=responsive.css.map */
